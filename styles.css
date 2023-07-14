@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* HEADER */
+
+header {
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+  
+}
+
+header span {
+    color: #0703f8;
+}
+
+
+header .navegacao-primaria {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+header .navegacao-primaria li a {
+    color: #fff;
+    width: 0px;
+    height: 0px;
+    font-size: 1.3rem;
+}
+
+header .navegacao-primaria li a::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-bottom: 4px solid transparent;
+    transition: .9s;
+}
+
+header .navegacao-primaria li a:hover::after {
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+    border-bottom: 4px solid #3528f5;
+}
+
+
+/* DOWNLOAD CV SECAO */
+
+.section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.section-div div {
+    margin-top:120px; ;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    
+}
+
+.section-div div h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #f7f7f7;
+    margin-block-start: auto;
+
+}
+
+.section-div div p {
+    font-family: 'Poppins';
+    font-weight: 200;
+    color: #f7f7f7;
+}
+
+.section-div div a {
+    justify-self: start;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+/* IMAGEM BRUNO */
+.section-div img {
+    max-width: 80%;
+    border-radius: 8px;
+    border-radius: 200px;
+   /*  border: 4px solid white; */
+
+}
+
+/* TECNOLOGIAS HTML CSS JAVASCRIPT */
+.tecnologias{
+    text-align: center;
+    
+}
+
+#php{
+    width:220px;
+    height:205px;
+    border-radius: 8px;
+    border: 4px solid white;
+    padding-right: 0%;
+    margin-left: 40px;
+}
+ #css{
+    width:220px;
+    height:205px;
+    border-radius: 8px;
+    border: 4px solid white;
+    padding-right: 0%;
+    margin-left: 40px;
+ }
+ #html{
+    width:220px;
+    height:205px;
+    border-radius: 8px;
+    border: 4px solid white;
+    padding-right: 0%;
+    margin-left: 40px;
+ }
+ #javascript {
+    width:220px;
+    height:205px;
+    border-radius: 8px;
+    border: 4px solid white;
+    padding-right: 0%;
+    margin-left: 40px;
+}
+
+    /*FACULDADE*/
+.card1{
+    height:400px;
+    width: 3000px;
+    border-radius: 8px;
+    background-color: white;
+    
+    margin-right: 70px;
+}
+
+.card2{
+    height:400px;
+    width: 3000px;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 4px solid white;
+    margin-right: 70px;
+}
+.card3{
+    height:400px;
+    width: 3000px;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 4px solid white;
+    
+}
+
+.facul{
+    margin-top: 150px;
+    display: flex;
+    
+}
+#laravelcard{
+    max-width: 100%;
+}
+
+.devicon-devicon-plain {
+    max-width: 2em;
+  }
