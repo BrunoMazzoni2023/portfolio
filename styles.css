@@ -155,3 +155,62 @@ header .navegacao-primaria li a:hover::after {
     padding-right: 0%;
     margin-left: 40px;
 }
+
+    /*FACULDADE  CARDS*/
+.card1{
+    height:400px;
+    width: 3000px;
+    border-radius: 30px;
+    background-color: white;    
+    margin-right: 70px;
+    
+}
+#laravel  {
+max-width: 100%;
+margin-left: 70px;
+}
+
+.plaravel1 {
+    color: #ffffff;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgb(5, 5, 5);   
+    border: 1px solid rgb(245, 12, 12);
+    border-radius: 30px;
+}
+
+
+.card2{
+    height:400px;
+    width: 3000px;
+    border-radius: 30px;
+    background-color: white;  
+    margin-right: 70px;
+}
+#composer  {
+    max-width: 100%;
+    margin-left: 70px;
+}
+    
+.card3{
+    height:400px;
+    width: 3000px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: white;  
+
+    
+}
+
+.facul{
+    margin-top: 150px;
+    display: flex;
+    
+}
+#laravelcard{
+    max-width: 100%;
+}
+
+.devicon-devicon-plain {
+    max-width: 2em;
+  }
