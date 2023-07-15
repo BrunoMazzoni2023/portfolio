@@ -8,14 +8,10 @@
     list-style: none;
     text-decoration: none;
 }
-
 body {
     background-color: #000;
-    max-width: 1200px;
-    margin: 0 auto;
-
+    margin: 0 auto;    
 }
-
 /* HEADER */
 
 header {
@@ -24,6 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 header h1 {
@@ -110,17 +107,21 @@ header .navegacao-primaria li a:hover::after {
 
 /* IMAGEM BRUNO */
 .section-div img {
-    max-width: 80%;
-    border-radius: 8px;
-    border-radius: 200px;
-   /*  border: 4px solid white; */
+    max-width: 50%;
+    border-radius: 1px;
+    border-radius: 70px;
+    padding: 5% 5%;
+    border: 1px solid rgb(248, 242, 242); 
+   
 
 }
 
-/* TECNOLOGIAS HTML CSS JAVASCRIPT */
+/* TECNOLOGIAS HTML CSS JAVASCRIPT PHP  */
 .tecnologias{
     text-align: center;
-    
+    justify-content: center;
+    align-items: center;
+    display: flex;  
 }
 
 #php{
@@ -130,6 +131,9 @@ header .navegacao-primaria li a:hover::after {
     border: 4px solid white;
     padding-right: 0%;
     margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+ 
 }
  #css{
     width:220px;
@@ -138,6 +142,9 @@ header .navegacao-primaria li a:hover::after {
     border: 4px solid white;
     padding-right: 0%;
     margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+  
  }
  #html{
     width:220px;
@@ -146,6 +153,9 @@ header .navegacao-primaria li a:hover::after {
     border: 4px solid white;
     padding-right: 0%;
     margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+   
  }
  #javascript {
     width:220px;
@@ -154,22 +164,46 @@ header .navegacao-primaria li a:hover::after {
     border: 4px solid white;
     padding-right: 0%;
     margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
     /*FACULDADE  CARDS*/
+
+.facul{
+    margin-top: 150px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 .card1{
     height:400px;
-    width: 3000px;
+    width: 300px;
+    border: none;
     border-radius: 30px;
     background-color: white;    
-    margin-right: 70px;
     
+    justify-content: center;
+    align-items: center;
 }
-#laravel  {
-max-width: 100%;
-margin-left: 70px;
-}
+.card2{
+    height:400px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: white;  
+    color: #ffffff;
 
+}
+.card3{
+   height:400px;
+   width: 300px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: white;   
+   
+}
 .plaravel1 {
     color: #ffffff;
     margin-left: 90px;
@@ -177,40 +211,298 @@ margin-left: 70px;
     background-color: rgb(5, 5, 5);   
     border: 1px solid rgb(245, 12, 12);
     border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
 }
-
-
-.card2{
-    height:400px;
-    width: 3000px;
+.composer1 {
+    color: #ffffff;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgb(5, 5, 5);   
+    border: 1px solid rgb(245, 12, 12);
     border-radius: 30px;
-    background-color: white;  
-    margin-right: 70px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mysql1 {
+    color: #ffffff;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgb(5, 5, 5);   
+    border: 1px solid rgb(245, 12, 12);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
 }
 #composer  {
     max-width: 100%;
-    margin-left: 70px;
+    margin-left: 40px;
 }
-    
-.card3{
-    height:400px;
-    width: 3000px;
-    border-radius: 30px;
-    color: #ffffff;
-    background-color: white;  
-
-    
-}
-
-.facul{
-    margin-top: 150px;
-    display: flex;
-    
-}
-#laravelcard{
+#laravel  {
     max-width: 100%;
-}
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+#mysql  {
+    max-width: 100%;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    }
 
-.devicon-devicon-plain {
-    max-width: 2em;
+        /*   MEDIA MEDIA MEDIA */
+@media(max-width: 600px) {
+
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+     
+    }
+    body {
+        background-color: #000;
+         margin: 0%;
+    }
+    /* HEADER */
+    
+    header {
+        background-color: #000;
+        display: flex;
+        align-items: center;
+    }
+    
+    header h1 {
+        color: #ffffff;
+        font-size: 2.5rem;
+    }
+    
+    header span {
+        color: #0703f8;
+    }
+    
+    
+    header .navegacao-primaria {
+     
+        gap: 30px;
+        align-items: center;
+    }
+    
+    header .navegacao-primaria li a {
+        color: #fff;
+        width: 0px;
+        height: 0px;
+        font-size: 1.3rem;
+    }
+    
+    header .navegacao-primaria li a::after {
+        content: '';
+        width: 0px;
+        height: 0px;
+        display: block;
+        border-bottom: 4px solid transparent;
+        transition: .9s;
+    }
+    
+    header .navegacao-primaria li a:hover::after {
+        width: 100%;
+        height: 0px;
+        padding: 0px;
+        border-bottom: 4px solid #3528f5;
+    }
+    
+    
+    /* DOWNLOAD CV SECAO */
+    
+    .section-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+     
+      
+    }
+    
+    .section-div div {
+        margin-top:120px; ;
+        align-self: start;
+        gap: 30px;
+        
+    }
+    
+    .section-div div h2 {
+        font-family: 'Poppins';
+        color: #f7f7f7;
+         
+    
+    }
+    
+    .section-div div p {
+        font-family: 'Poppins';
+        font-weight: 200;
+        color: #f7f7f7;
+    }
+    
+    .section-div div a {
+        justify-self: start;
+        color: #fff;
+        padding: 15px 40px;
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+    
+    /* IMAGEM BRUNO */
+    .section-div img {
+        max-width: 150px;
+        border-radius: 8px;
+        border-radius: 20px;
+         border: 1px solid white; 
+      
+    
+    }
+
+    .tecnologias{
+  
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 10px; 
+    }
+    
+    
+    #php{
+        width:80px;
+        height:50px;
+        border-radius: 8px;
+        border: 4px solid white;
+        justify-content: center;
+        align-items: center;
+    }
+     #css{
+        width:80px;
+        height:50px;
+        border-radius: 8px;
+        border: 4px solid white;
+        justify-content: center;
+        align-items: center;
+     }
+     #javascript {
+        width:80px;
+        height:50px;
+        border-radius: 8px;
+        border: 4px solid white;
+        justify-content: center;
+        align-items: center;
+    }
+     #html{
+        width:80px;
+        height:50px;
+        border-radius: 8px;
+        border: 4px solid white;
+        justify-content: center;
+        align-items: center;
+     }
+
+        /*  FACUL */
+    .facul{
+        margin-top: 150px;
+        justify-content: center;
+        align-items: center;
+         display: grid;  
+        gap: 50px; 
+    }
+
+    .card1{
+        height:400px;
+        width: 400px;
+        border-radius: 30px;
+        background-color: white;  
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .card2{
+        height:400px;
+        width: 400px;
+        border-radius: 30px;
+        background-color: white;  
+        justify-content: center;
+        align-items: center;
+     
+     
+    }
+    .card3{
+        height:400px;
+        width: 400px;
+        border-radius: 30px;
+        background-color: white;  
+        justify-content: center;
+        align-items: center;
+    }
+    .plaravel1 {
+        color: #ffffff;
+        margin-left: 90px;
+        margin-right: 90px;
+        background-color: rgb(5, 5, 5);   
+        border: 1px solid rgb(245, 12, 12);
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .composer1 {
+        color: #ffffff;
+        margin-left: 90px;
+        margin-right: 90px;
+        background-color: rgb(5, 5, 5);   
+        border: 1px solid rgb(245, 12, 12);
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    .mysql1 {
+        color: #ffffff;
+        margin-left: 90px;
+        margin-right: 90px;
+        background-color: rgb(5, 5, 5);   
+        border: 1px solid rgb(245, 12, 12);
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+ 
+    #composer  {
+        max-width: 100%;
+        margin-left: 90px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    #laravel  {
+        max-width: 200%;
+        margin-left: 80px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      
+        }
+
+    #mysql  {
+        max-width: 100%;
+        margin-left: 50px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        }
+    
   }
